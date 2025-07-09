@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "723230534177",
+    "project_id": "usuarioselbuho",
+    "storage_bucket": "usuarioselbuho.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723230534177:android:c96e2d2808985fa0c15160",
+        "android_client_info": {
+          "package_name": "com.example.appturistica"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ-U1vOwV7nbUC35GMLTqgiY3qway81y0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723230534177:android:14b7976f77848879c15160",
+        "android_client_info": {
+          "package_name": "com.turismo.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ-U1vOwV7nbUC35GMLTqgiY3qway81y0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
