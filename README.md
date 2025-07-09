@@ -1,4 +1,6 @@
 UsuariosElBuho – App de Turismo en Ecuador
+
+
 UsuariosElBuho es una aplicación móvil desarrollada en Flutter que promueve el turismo local en Ecuador. La app permite a los usuarios explorar sitios turísticos, compartir reseñas e imágenes, y participar como visitantes o publicadores, todo respaldado por Firebase para autenticación y almacenamiento de datos.
 
 📱 Funcionalidades Principales
