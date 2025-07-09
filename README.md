@@ -1,16 +1,63 @@
-# appturistica
+UsuariosElBuho – App de Turismo en Ecuador
 
-A new Flutter project.
 
-## Getting Started
+UsuariosElBuho es una aplicación móvil desarrollada en Flutter que promueve el turismo local en Ecuador. La app permite a los usuarios explorar sitios turísticos, compartir reseñas e imágenes, y participar como visitantes o publicadores, todo respaldado por Firebase para autenticación y almacenamiento de datos.
 
-This project is a starting point for a Flutter application.
+📱 Funcionalidades Principales
+🔐 Autenticación con roles
 
-A few resources to get you started if this is your first Flutter project:
+Registro e inicio de sesión con Firebase Auth
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Roles: Visitante y Publicador
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Cada rol accede a funciones específicas
+
+🌍 Gestión de Sitios Turísticos
+
+Publicación de sitios con nombre, ubicación, descripción e imagen en formato base64
+
+Edición y eliminación de sitios solo por el publicador correspondiente
+
+Visualización de todos los sitios disponibles
+
+📝 Sistema de Reseñas
+
+Visitantes pueden dejar reseñas en los sitios
+
+Publicadores pueden responder a las reseñas recibidas
+
+🔎 Filtros y Navegación
+
+Filtro por creador de contenido
+
+Ocultación de funciones según el rol del usuario
+
+Navegación clara entre páginas: Inicio, Sitios, Perfil, Publicar, etc.
+
+📦 Almacenamiento Eficiente
+
+Las imágenes se almacenan como texto base64 para evitar el uso de Firebase Storage y mantener el plan gratuito
+
+🧱 Estructura del Proyecto
+
+/lib
+├── main.dart
+├── pages/
+│   ├── home_visitante.dart
+│   ├── home_publicador.dart
+│   ├── detalle_sitio.dart
+│   ├── crear_sitio.dart
+│   └── login_register/
+│       ├── login.dart
+│       └── register.dart
+├── models/
+│   ├── sitio_model.dart
+│   └── reseña_model.dart
+├── services/
+│   ├── auth_service.dart
+│   ├── sitios_service.dart
+│   └── firebase_options.dart
+└── widgets/
+    ├── sitio_card.dart
+    └── reseña_widget.dart
+
